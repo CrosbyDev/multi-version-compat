@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "multi-version-compat",
+  "version": "${version}",
+  "name": "MultiVersion Compat",
+  "description": "Simple library for implementing special behaviour based on the server's version.",
+  "authors": [
+    "Crosby"
+  ],
+  "contact": {
+    "sources": "https://github.com/CrosbyDev/multi-version-compat",
+    "issues": "https://github.com/CrosbyDev/multi-version-compat/issues"
+  },
+  "environment": "client",
+  "license": "LGPL-3.0-or-later",
+  "depends": {
+    "java": ">=21",
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20.5"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ]
+    }
+  }
+}
